@@ -19,6 +19,24 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/');
+	src: local('Roboto-Bold'),
+		url('../fonts/Roboto-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/');
+	src: local('Roboto-Regular'),
+		url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html,
 body {
     font-size: 62.5%;
@@ -50,7 +68,7 @@ h6 {
     transform: translate(-50%, 0);
 }
 
-.header .container{
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
