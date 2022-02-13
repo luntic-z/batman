@@ -1,6 +1,6 @@
 const swiper = new Swiper('.main-slider', {
   loop: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 20,
   keyboard: {
     enabled: true
@@ -9,4 +9,10 @@ const swiper = new Swiper('.main-slider', {
   navigation: {
     nextEl: '.main-slider__arrow',
   },
+  breakpoints: {
+    // when window width is >= 376px
+    376: {
+      slidesPerView: 2,
+    },
+  }
 });

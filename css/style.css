@@ -245,6 +245,15 @@ h6 {
   object-fit: cover;
 }
 
+@media (max-width: 375px) {
+  .main-slider__wrap {
+    max-width: 16.4rem;
+  }
+  .main-slider__arrow {
+    display: none;
+  }
+}
+
 .footer {
   color: #686767;
   background: #030102;
